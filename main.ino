@@ -5,13 +5,14 @@
 #include "GUI.h"
 
 /********************************************
- * Bitte hier den Messintervall definieren!!
- * (Wert in Millisekunden)
+ * Define the interval of measurements here!!
+ * (value in milliseconds)
  ********************************************/
 #define MEAS_INTERVAL  500
 /********************************************
- * Diesen define kommentieren, falls 
- * Konsolenausgabe nicht genutzt wird!
+ * Uncomment this line if you want to print
+ * information in serial monitor.
+ * Increases required RAM and is slower
  ********************************************/
 //#define DEBUG_MODE
 
